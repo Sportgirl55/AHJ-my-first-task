@@ -1,0 +1,37 @@
+{
+  "name": "ahj-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sportgirl55/AHJ-my-homeworks.git"
+  },
+  "author": "Sportgirl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sportgirl55/AHJ-my-homeworks/issues"
+  },
+  "homepage": "https://github.com/Sportgirl55/AHJ-my-homeworks#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "http-server": "^0.12.3",
+    "jest": "^26.6.3",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
